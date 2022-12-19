@@ -16,23 +16,65 @@ The AIM SWG will use for collaboration:
 Deliverable D2.3 of the H2020 DEMETER project (https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n) elaborates the alignments and relations with different models including: INSPIRE/FOODIE, FIWARE AgriFood dta models, SAREF4AGRI, ADAPT, FOODON, AGROVOC, EPPO, and other OGC Earth Observation standards.
 D2.3 includes the analysis of other relevant models, describing their potential incorporation in AIM, e.g., Crop ontology, ISOBUS, GS1, and AFarCloud. Deliverable D2.5 of DEMETER that is planned for delivery in April 2023 will present in detail the latest version of AIM along with all recent extensions.
 
-==== Saref4Agri
+==== W3C/OGC Spatial Data on the Web Interest Group
+
+(And/or its successor, the Spatial Data on the Web Working Group)
 
 ===== Scope of Activity
 
-This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [10]
+This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.
+
+The group is expected to be transformed into a working group over the course of the year 2020.
 
 ===== Web Site(s)
 
- -
+https://www.w3.org/2017/sdwig/
 
 ===== Source Repositories
 
- - 
+https://github.com/w3c/sdw
 
 ===== Liaisons
 
-...
+ - Linda van den Brink
+ - Joseph Abhayaratna
+
+
+==== RDA IGAD
+
+===== Scope of Activity
+
+Improving Global Agricultural Data (IGAD) Community of Practice, formerly called The Interest Group on Agricultural Data (IGAD), is building practices of interoperability for research data for agriculture.
+The Group has published several Best Practices for specific subdomains and semantics in general.
+Cooperation will help to work out common practice on semantics in the agriculture.
+
+===== Web Site(s)
+
+ -  https://www.rd-alliance.org/groups/agriculture-data-interest-group-igad.html
+
+===== Liaisons
+
+ - Cynthia Sims Parr
+ - Karel Charvat
+
+==== Saref4Agri/FIWARE
+
+===== Scope of Activity
+
+This group is working on the ETSI standards supported in the AIM and supported in important data-spaces related initiatives namely NGSI-LD and Saref4Agri.
+Liaison will work on the models alignment and potential representation practices in selected encodings.
+
+===== Web Site(s)
+
+ - https://ngsi-ld-tutorials.readthedocs.io/en/latest/
+
+===== Source Repositories
+
+ - https://github.com/fiware/tutorials.NGSI-LD
+
+===== Liaisons
+
+Juanjose Hierro
 
 
 

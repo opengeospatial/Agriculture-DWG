@@ -12,3 +12,39 @@
 
 [[GeoSPARQL1]]
 [3] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, http://www.opengis.net/doc/IS/geosparql/1.0 (2012)
+
+[[SSNO]]
+[4] Semantic Sensor Network Ontology W3C Recommendation 19 October 2017 (Link errors corrected 08 December 2017) https://www.w3.org/TR/vocab-ssn/
+
+[[QUDT]]
+[5] QUDT - Quantities, Units, Dimensions and dataTypes - public repository https://github.com/qudt/qudt-public-repo
+
+[[RDF-DC]]
+[6] The RDF Data Cube Vocabulary W3C Recommendation 16 January 2014 https://www.w3.org/TR/vocab-data-cube/
+
+[[FOAF]]
+[7] The Friend Of A Friend (FOAF) ontology http://www.foaf-project.org/
+
+[[SKOS]]
+[8] SKOS Simple Knowledge Organization System RDF Schema 20th August 2008 "Last Call" Edition https://www.w3.org/TR/2008/WD-skos-reference-20080829/skos.html
+
+[[FOODIE]]
+[9] FOODIE Ontology https://foodie-cloud.github.io/model/FOODIE.html
+
+[[AGROVOC]]
+[10] AGROVOC Multilingual Thesaurus https://agrovoc.fao.org/browse/agrovoc/en/
+
+[[EPPO]]
+[11] EPPO codes https://www.eppo.int
+
+[[SAREF4AGRI]]
+[12] SAREF4AGRI: an extension of SAREF for the agriculture and food domain https://saref.etsi.org/saref4agri/v1.1.2/
+
+[[NGSI-LD]]
+[13] NGSI-LD https://ngsi-ld-tutorials.readthedocs.io/en/latest/
+
+[[TO-OWL]]
+[14] TIme Ontology OWL https://www.w3.org/TR/owl-time/
+
+[[O&M]]
+[15]Observations and Measurements https://www.ogc.org/standards/om
