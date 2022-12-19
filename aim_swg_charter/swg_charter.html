@@ -651,19 +651,45 @@ The Group will assess overlaps with work on the other general purpose standards 
 <div class="sect2">
 <h3 id="_specific_existing_work_used_as_starting_point"><a class="anchor" href="#_specific_existing_work_used_as_starting_point"></a>3.3. Specific Existing Work Used as Starting Point</h3>
 <div class="paragraph">
-<p>AIM reuses and aligns relevant standards at core and cross-domain level, with domain-specific models, bridging various views on the agriculture data and providing a formal representation enabling unambiguous translations between them. These standards used in the core and cross-domain layer include:
-NGSI-LD meta-model for AIM core layer
-W3C Time ontology for concepts of temporal properties and time values
-OGC GeoSPARQL and associated definitions for geographical and geometrical properties
-W3C/OGC recommendation SOSA/SSN regarding sensor and actuator data, including observations, observation collections, observed properties, systems and platforms
-QUDT regarding units of measurement, and concepts to represent quantities and quantity kinds
-RDF data cube vocabulary to represent statistical data, including datasets, data structures, slices, measure properties, dimension properties, etc.
-Basic terms from standard or widely used vocabularies like skos, foaf, schema.org.
-ISO geographic technology standards, including features (domain and sampling feature), and observations
-The domain-specific models re-used and aligned in the AIM domain layer include Saref4Agri, FIWARE and INSPIRE/FOODIE, and enable the linking of elements to AGROVOC and EPPO concepts.
-The AIM model has been published by the DEMETER project and is the outcome of joint partner efforts where OGC has also been engaged.
-AIM is released using persistent and resolvable identifiers (namely from w3id service), allowing access to the ontology on the Web via its URI, with support for content-negotiation, and ensuring the sustainability of the ontology over time. The main entry point is: <a href="https://w3id.org/demeter/agri" class="bare">https://w3id.org/demeter/agri</a> [1], which by default opens in the OGC definition server. All concrete modules can also be found in OGC definition server, e.g., <a href="http://defs-dev.opengis.net/profiles/vocab/" class="bare">http://defs-dev.opengis.net/profiles/vocab/</a>
-The AIM sources can be found at: <a href="https://github.com/rapw3k/DEMETER/tree/master/models" class="bare">https://github.com/rapw3k/DEMETER/tree/master/models</a>
+<p>AIM reuses and aligns relevant standards at core and cross-domain level, with domain-specific models, bridging various views on the agriculture data and providing a formal representation enabling unambiguous translations between them. These standards used in the core and cross-domain layer include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>NGSI-LD meta-model for AIM core layer</p>
+</li>
+<li>
+<p>W3C Time ontology for concepts of temporal properties and time values[14]</p>
+</li>
+<li>
+<p>OGC GeoSPARQL [3] and associated definitions for geographical and geometrical properties</p>
+</li>
+<li>
+<p>W3C/OGC recommendation SOSA/SSN regarding sensor and actuator data, including observations, observation collections, observed properties, systems and platforms [4]</p>
+</li>
+<li>
+<p>QUDT regarding units of measurement, and concepts to represent quantities and quantity kinds [5]</p>
+</li>
+<li>
+<p>RDF data cube vocabulary[6] to represent statistical data, including datasets, data structures, slices, measure properties, dimension properties, etc.</p>
+</li>
+<li>
+<p>Basic terms from standard or widely used vocabularies like skos[7], foaf[8], schema.org</p>
+</li>
+<li>
+<p>ISO geographic technology standards, including features (domain and sampling feature), and observations</p>
+</li>
+<li>
+<p>The domain-specific models re-used and aligned in the AIM domain layer include Saref4Agri [12], NGSI-LD[13] and INSPIRE/FOODIE[9], and enable the linking of elements to AGROVOC [10] and EPPO [11] concepts.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The AIM model has been published by the DEMETER project and is the outcome of joint partner efforts where OGC has also been engaged.
+AIM is released using persistent and resolvable identifiers (namely from w3id service), allowing access to the ontology on the Web via its URI, with support for content-negotiation, and ensuring the sustainability of the ontology over time. The main entry point is: <a href="https://w3id.org/demeter/agri" class="bare">https://w3id.org/demeter/agri</a> [1], which by default opens in the OGC definition server. All concrete modules can also be found in OGC definition server, e.g., <a href="http://defs-dev.opengis.net/profiles/vocab/" class="bare">http://defs-dev.opengis.net/profiles/vocab/</a></p>
+</div>
+<div class="paragraph">
+<p>The AIM sources can be found at: <a href="https://github.com/rapw3k/DEMETER/tree/master/models" class="bare">https://github.com/rapw3k/DEMETER/tree/master/models</a>
 AIM has been published in the book: Information and Communication Technologies for Agriculture—Theme III: Decision. Springer Optimization and Its Applications [2] , and a full description is available in DEMETER deliverable:
 <a href="https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n" class="bare">https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n</a> (D2.3)
 <a href="https://h2020-demeter.eu/wp-content/uploads/2020/10/DEMETER_D21_final.pdf" class="bare">https://h2020-demeter.eu/wp-content/uploads/2020/10/DEMETER_D21_final.pdf</a></p>
@@ -771,33 +797,112 @@ AIM has been published in the book: Information and Communication Technologies f
 D2.3 includes the analysis of other relevant models, describing their potential incorporation in AIM, e.g., Crop ontology, ISOBUS, GS1, and AFarCloud. Deliverable D2.5 of DEMETER that is planned for delivery in April 2023 will present in detail the latest version of AIM along with all recent extensions.</p>
 </div>
 <div class="sect3">
-<h4 id="_saref4agri"><a class="anchor" href="#_saref4agri"></a>8.2.1. Saref4Agri</h4>
+<h4 id="_w3cogc_spatial_data_on_the_web_interest_group"><a class="anchor" href="#_w3cogc_spatial_data_on_the_web_interest_group"></a>8.2.1. W3C/OGC Spatial Data on the Web Interest Group</h4>
+<div class="paragraph">
+<p>(And/or its successor, the Spatial Data on the Web Working Group)</p>
+</div>
 <div class="sect4">
 <h5 id="_scope_of_activity"><a class="anchor" href="#_scope_of_activity"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [10]</p>
+<p>This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.</p>
+</div>
+<div class="paragraph">
+<p>The group is expected to be transformed into a working group over the course of the year 2020.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_web_sites"><a class="anchor" href="#_web_sites"></a>Web Site(s)</h5>
-<div class="literalblock">
-<div class="content">
-<pre>-</pre>
-</div>
+<div class="paragraph">
+<p><a href="https://www.w3.org/2017/sdwig/" class="bare">https://www.w3.org/2017/sdwig/</a></p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_source_repositories"><a class="anchor" href="#_source_repositories"></a>Source Repositories</h5>
-<div class="literalblock">
-<div class="content">
-<pre>-</pre>
-</div>
+<div class="paragraph">
+<p><a href="https://github.com/w3c/sdw" class="bare">https://github.com/w3c/sdw</a></p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_liaisons"><a class="anchor" href="#_liaisons"></a>Liaisons</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Linda van den Brink</p>
+</li>
+<li>
+<p>Joseph Abhayaratna</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_rda_igad"><a class="anchor" href="#_rda_igad"></a>8.2.2. RDA IGAD</h4>
+<div class="sect4">
+<h5 id="_scope_of_activity_2"><a class="anchor" href="#_scope_of_activity_2"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>&#8230;&#8203;</p>
+<p>Improving Global Agricultural Data (IGAD) Community of Practice, formerly called The Interest Group on Agricultural Data (IGAD), is building practices of interoperability for research data for agriculture.
+The Group has published several Best Practices for specific subdomains and semantics in general.
+Cooperation will help to work out common practice on semantics in the agriculture.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_web_sites_2"><a class="anchor" href="#_web_sites_2"></a>Web Site(s)</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.rd-alliance.org/groups/agriculture-data-interest-group-igad.html" class="bare">https://www.rd-alliance.org/groups/agriculture-data-interest-group-igad.html</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_liaisons_2"><a class="anchor" href="#_liaisons_2"></a>Liaisons</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Cynthia Sims Parr</p>
+</li>
+<li>
+<p>Karel Charvat</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_saref4agrifiware"><a class="anchor" href="#_saref4agrifiware"></a>8.2.3. Saref4Agri/FIWARE</h4>
+<div class="sect4">
+<h5 id="_scope_of_activity_3"><a class="anchor" href="#_scope_of_activity_3"></a>Scope of Activity</h5>
+<div class="paragraph">
+<p>This group is working on the ETSI standards supported in the AIM and supported in important data-spaces related initiatives namely NGSI-LD and Saref4Agri.
+Liaison will work on the models alignment and potential representation practices in selected encodings.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_web_sites_3"><a class="anchor" href="#_web_sites_3"></a>Web Site(s)</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://ngsi-ld-tutorials.readthedocs.io/en/latest/" class="bare">https://ngsi-ld-tutorials.readthedocs.io/en/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_source_repositories_2"><a class="anchor" href="#_source_repositories_2"></a>Source Repositories</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/fiware/tutorials.NGSI-LD" class="bare">https://github.com/fiware/tutorials.NGSI-LD</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_liaisons_3"><a class="anchor" href="#_liaisons_3"></a>Liaisons</h5>
+<div class="paragraph">
+<p>Juanjose Hierro</p>
 </div>
 </div>
 </div>
@@ -911,12 +1016,49 @@ D2.3 includes the analysis of other relevant models, describing their potential 
 <div id="GeoSPARQL1" class="paragraph">
 <p>[3] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, <a href="http://www.opengis.net/doc/IS/geosparql/1.0" class="bare">http://www.opengis.net/doc/IS/geosparql/1.0</a> (2012)</p>
 </div>
+<div id="SSNO" class="paragraph">
+<p>[4] Semantic Sensor Network Ontology W3C Recommendation 19 October 2017 (Link errors corrected 08 December 2017) <a href="https://www.w3.org/TR/vocab-ssn/" class="bare">https://www.w3.org/TR/vocab-ssn/</a></p>
+</div>
+<div id="QUDT" class="paragraph">
+<p>[5] QUDT - Quantities, Units, Dimensions and dataTypes - public repository <a href="https://github.com/qudt/qudt-public-repo" class="bare">https://github.com/qudt/qudt-public-repo</a></p>
+</div>
+<div id="RDF-DC" class="paragraph">
+<p>[6] The RDF Data Cube Vocabulary W3C Recommendation 16 January 2014 <a href="https://www.w3.org/TR/vocab-data-cube/" class="bare">https://www.w3.org/TR/vocab-data-cube/</a></p>
+</div>
+<div id="FOAF" class="paragraph">
+<p>[7] The Friend Of A Friend (FOAF) ontology <a href="http://www.foaf-project.org/" class="bare">http://www.foaf-project.org/</a></p>
+</div>
+<div id="SKOS" class="paragraph">
+<p>[8] SKOS Simple Knowledge Organization System RDF Schema 20th August 2008 "Last Call" Edition <a href="https://www.w3.org/TR/2008/WD-skos-reference-20080829/skos.html" class="bare">https://www.w3.org/TR/2008/WD-skos-reference-20080829/skos.html</a></p>
+</div>
+<div id="FOODIE" class="paragraph">
+<p>[9] FOODIE Ontology <a href="https://foodie-cloud.github.io/model/FOODIE.html" class="bare">https://foodie-cloud.github.io/model/FOODIE.html</a></p>
+</div>
+<div id="AGROVOC" class="paragraph">
+<p>[10] AGROVOC Multilingual Thesaurus <a href="https://agrovoc.fao.org/browse/agrovoc/en/" class="bare">https://agrovoc.fao.org/browse/agrovoc/en/</a></p>
+</div>
+<div id="EPPO" class="paragraph">
+<p>[11] EPPO codes <a href="https://www.eppo.int" class="bare">https://www.eppo.int</a></p>
+</div>
+<div id="SAREF4AGRI" class="paragraph">
+<p>[12] SAREF4AGRI: an extension of SAREF for the agriculture and food domain <a href="https://saref.etsi.org/saref4agri/v1.1.2/" class="bare">https://saref.etsi.org/saref4agri/v1.1.2/</a></p>
+</div>
+<div id="NGSI-LD" class="paragraph">
+<p>[13] NGSI-LD <a href="https://ngsi-ld-tutorials.readthedocs.io/en/latest/" class="bare">https://ngsi-ld-tutorials.readthedocs.io/en/latest/</a></p>
+</div>
+<div id="TO-OWL" class="paragraph">
+<p>[14] TIme Ontology OWL <a href="https://www.w3.org/TR/owl-time/" class="bare">https://www.w3.org/TR/owl-time/</a></p>
+</div>
+<div class="paragraph">
+<p>[[O&amp;M]]
+[15]Observations and Measurements <a href="https://www.ogc.org/standards/om" class="bare">https://www.ogc.org/standards/om</a></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-12-19 15:14:25 UTC
+Last updated 2022-12-19 15:50:22 UTC
 </div>
 </div>
 </body>
