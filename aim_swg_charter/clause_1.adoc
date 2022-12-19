@@ -1,0 +1,26 @@
+== Purpose of the Standards Working Group
+
+////
+Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
+////
+
+The purpose of this SWG is to develop, publish and maintain an Agriculture Information Model (AIM) to support interoperability of information in the Agriculture Domain (“agri”), with emphasis on the re-use of generic OGC standards as appropriate.
+
+AIM will be a multi-tier and modular domain model aligning, profiling and/or extending well known agriculture related and generic ontologies, including existing ontologies published by the OGC. Recognising that this is an innovative approach to publish such a domain model as a modular ontology the SWG will address both identification of best practices for this specialisation approach and the development of a series of complementary models.
+
+AIM provides a common language for “agri” applications to harmonise and improve data and metadata exchange by defining the data elements, including concepts, properties and relationships relevant to agri applications, as well as their associated semantics/meaning for information exchange.
+
+AIM is published as both human and implementation-ready machine-actionable resources.
+Machine-actionable resources include the canonical ontology representation of the AIM in the Web Ontology Language (OWL) as well as other related artifacts to support implementation.
+
+The SWG will develop implementations of the AIM model compatible with OGC APIs, including:
+ * JSON schemas supported by OGC APIS
+ * JSON-LD contexts allowing identification and validation of  AIM-compliant data.
+ * SHACL shapes enabling the validation of data against AIM semantics
+
+In addition other forms may be derived or supplied to support reusability of the AIM model, according to requirements identified by the SWG:
+ * UML representation of AIM conceptual model
+ * UML representation of one or more logical models for AIM implementation
+ * Formal profiles for implementation of AIM using GeoJSON, FG-JSON, CoverageJSON and other relevant generic schemas
+
+In line with OGC policies and FAIR  principles, the AIM will be published using persistent and resolvable URI identifiers, consistent with OGC Naming Authority processes for publishing semantic resources.

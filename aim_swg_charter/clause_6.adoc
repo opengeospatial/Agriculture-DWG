@@ -1,0 +1,7 @@
+== Anticipated Audience / Participants
+
+The anticipated audience is:
+
+ * Agriculture geospatial resource providers.
+ * Developers implementing services.
+ * Users of geospatial resources.

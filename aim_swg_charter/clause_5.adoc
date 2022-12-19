@@ -1,0 +1,4 @@
+==  PR Policy for this SWG
+
+[x] RAND-Royalty Free
+[ ] RAND for fee

@@ -1,0 +1,78 @@
+== Other informative information about the work of this SWG
+
+=== Collaboration
+
+SWG cooperation will aim at standards formulation in the shared working space, identification and division of tasks, solving arised issues accordingly to their urgency and severity, tracing the progress and planning.
+
+The AIM SWG will use for collaboration:
+ * Github repository with the standard document and formal model
+ * Github issue tracker for outstanding tasks and considerations as well as change requests
+ * slack channel
+ * bi-weekly telcos for ongoing work and issues discussion
+
+
+=== Similar or Applicable Standards Work (OGC and Elsewhere)
+
+Deliverable D2.3 of the H2020 DEMETER project (https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n) elaborates the alignments and relations with different models including: INSPIRE/FOODIE, FIWARE AgriFood dta models, SAREF4AGRI, ADAPT, FOODON, AGROVOC, EPPO, and other OGC Earth Observation standards.
+D2.3 includes the analysis of other relevant models, describing their potential incorporation in AIM, e.g., Crop ontology, ISOBUS, GS1, and AFarCloud. Deliverable D2.5 of DEMETER that is planned for delivery in April 2023 will present in detail the latest version of AIM along with all recent extensions.
+
+==== Saref4Agri
+
+===== Scope of Activity
+
+This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [10]
+
+===== Web Site(s)
+
+ -
+
+===== Source Repositories
+
+ - 
+
+===== Liaisons
+
+...
+
+
+
+=== Other Related Work
+
+This proposed SWG is to enhance an existing OGC standard - an ontology - however the Best Practices for ontology publication have changed since the original GeoSPARQL publication. The ontology publication methods of other standards bodies, particularly the W3C who continuously generates new standard ontologies, will be considered to determine appropriate, Best Practice, ontology publication.
+
+This may include the use of tools to automatically generate human-readable ontology versions from the technical ontology artifact, such as those used by inputs to this work, for example the http://linked.data.gov.au/def/geox[GeoSPARQL Extensions Ontology].
+
+In case of profiles definition *profile* as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
+
+RDA IGAD Agrisemantics WG report ‘39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition’ doi.org/10.15497/RDA00036
+
+
+=== Details of first meeting
+
+The first meeting of the SWG will be held by telephone conference call within 2 weeks following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG’s e-mail list and on the portal calendar in advance of the meeting.
+
+=== Projected on-going meeting schedule
+
+The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
+
+=== Supporters of this Charter
+
+The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter members. The charter members agree to the SoW and IPR terms as defined in this charter. The charter members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page.
+
+|===
+|Name |Organization
+|K. Charvat | Plan4All
+|R. Palma | PSNC
+|I. Roussaki | NTUA
+|I. Roussaki | ICCS
+|R. Atkinson, P. Zaborowski | OGC COSI
+|===
+
+=== Conveners
+
+|===
+|Name |Organization
+|I. Roussaki | ICCS
+|R. Palma | PSNC
+|K. Charvat | Plan4All
+|===

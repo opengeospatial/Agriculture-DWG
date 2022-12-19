@@ -1,0 +1,33 @@
+== Business Value Proposition
+
+////
+This section provides a statement describing the value of this standards activity in relation to the OGC Membership, the geospatial community, and the wider IT community. This statement can be in terms of the interoperability problem being solved, processing Change requests to meet market (and Member requirements), a policy requirement and/or some other business value proposition. The proposition described in this section does not have to be in economic terms.
+////
+One of the key challenges hampering the realization of smart farming solutions is related to the lack of interoperability between different systems and platforms in the agri-food sector, especially the ones offered by different technology providers. In this respect, seamless exchange and integration of the data produced/consumed by those systems is unfortunately rarely supported. This is in principle due to the wide heterogeneity of data models and semantics used to represent data in the agri-food domain, as well as the lack of related standards to dominate this space and the lack of sufficient interoperability mechanisms that enable the connection of existing agri-food data models.
+
+The agriculture domain is a broad domain with multiple data reference models defined either as formal ontologies and schemas. These models are heterogeneous in form and may have little or no formal interoperability defined for any implicit or explicit overlaps in scope.
+
+Using data and/or tools from various sources is a considerable burden that limits potential added value creation and brings a risk of further fragmentation of data derivatives' interpretations. This, in turn, hinders the development of smart services and applications supporting the decision making processes.
+
+Best practices in reuse of available standards have emerged through significant projects, culminating in a candidate data model. AIM harmonizes and aligns relevant cross-domain standards like Time Ontology, SOSA, OWL, RDF Data Cubes, with domain models like Saref4Agri, FIWARE and INSPIRE/FOODIE, bridging various views on the agriculture data and providing a formal representation enabling unambiguous translations between them.
+
+=== Value to the OGC
+Reference data models that are defined based on the OGC ontologies and standards support their uptake and popularization. This leverages OGC’s position as the reference for the spatio-temporal aspects of data exchange to provide the basis for common approaches in an otherwise fragmented domain.
+
+Formal representation of the data in external ontologies limits the lock-in of data and services within solutions that are not OGC compliant and enable incorporation of the OGC standards in new industry stacks like Data Spaces. It is also in line with industry trends to support data exchange with ontologies and vocabularies that will enable lookup, translations and validations in the continuous integration manner.
+
+In particular, the diversity of information system architectures in domains such as Agriculture provide a significant opportunity for OGC to progress best practices regarding the application of common conceptual models, modular encoding building blocks and FAIR principles to heterogeneous but interoperable suites of related data products.
+
+=== Value to the OGC Membership
+Standardization of the AIM in a form that can be embedded in application-specific profiles of the OGC suite of data model and API standards shall facilitate the uptake of OGC standards and interoperability principles in the agriculture sector.
+
+Given that semantic model definitions are gaining increasing support and interest among the industries, the process of formalizing AIM will provide significant experience and insight into how to maintain relevance of OGC standardization processes in large, diverse and dynamic domains as they evolve to support greater levels of semantic interoperability.  
+
+
+=== Value to the geospatial community
+The wider geospatial community will benefit from the emergence of harmonized approaches to reuse of generic spatio-temporal patterns with domain specific models.  These approaches , tested in agriculture applications, will provide a template for other domains of application.
+
+The adoption of AIM in operational systems, enabled by its standardization status, opens up a wide range of information types to interoperation with geospatial technologies.
+
+=== Value to the wider IT community
+The AIM standardization methodology will demonstrate the potential of industry-wide standards from OGC and other bodies to support the FAIR principles in large scale, highly heterogeneous domains.

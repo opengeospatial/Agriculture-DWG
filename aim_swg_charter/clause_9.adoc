@@ -1,0 +1,14 @@
+== References
+
+
+[[AIM]]
+[1] https://w3id.org/demeter/agri
+
+[[PAX]]
+[2] Palma R., Roussaki I., Döhmen T., Atkinson R., Brahma S., Lange C., Routis G., Plociennik M., Mueller S. (2022). “Agriculture Information Model”  in D. D. Bochtis, C. Sørensen, S. Fountas, V. Moysiadis and P. M. Pardalo (Eds). Information and Communication Technologies for Agriculture—Theme III: Decision. Springer Optimization and Its Applications, vol 184. Springer, Cham. https://doi.org/10.1007/978-3-030-84152-2_1
+
+[[AIMrepo]]
+[3] AIM source model https://github.com/rapw3k/DEMETER/tree/master/models
+
+[[GeoSPARQL1]]
+[3] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, http://www.opengis.net/doc/IS/geosparql/1.0 (2012)

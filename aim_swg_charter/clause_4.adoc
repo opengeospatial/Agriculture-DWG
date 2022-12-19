@@ -1,0 +1,16 @@
+== Description of deliverables
+
+
+
+=== Initial Deliverables
+
+The following deliverables will result from the work of this SWG:
+* A final version of the "OGC Agriculture Information Model" document for submission to the TC;
+* Identification of at least two prototype implementations of the core based on the standard — although more would be preferred; and
+
+The targeted start date is in March 2023 once the charter is approved. Formal approval of the core Common API is envisaged to take place nearer December 2023.
+
+
+=== Additional SWG Tasks
+
+According to the SWG decisions, resources and progress in related groups SWG can undertake efforts to exemplify the AIM embedding in the OGC APIs.
