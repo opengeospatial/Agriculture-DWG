@@ -1,6 +1,6 @@
 name: build adocs
 
-on: [workflow_dispatch]
+on: [workflow_dispatch, push]
 
 jobs:
   adoc_build:
