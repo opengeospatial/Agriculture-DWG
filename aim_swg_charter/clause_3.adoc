@@ -1,17 +1,15 @@
 == Scope of Work
 
 The SWG will undertake:
- * a review of available standards relevant to the Agriculture Domain
- * Comparison of  these with the scope of the existing AIM candidate model
- * Establish agreements and prioritizing scope for standardization of modules
- * develop implementations of modules that can be realized using the concepts OGC API Building Blocks.
- * Provide feedback to the OGC TC on best practices for domain model definition and its use in the APIs
-
+ * a review of available standards relevant to the Agriculture Domain;
+ * comparison of these with the scope of the existing AIM candidate model;
+ * establish agreements and prioritizing scope for standardization of modules;
+ * develop implementations of modules that can be realized using the concepts OGC API Building Blocks; and
+ * provide feedback to the OGC TC on best practices for domain model definition and its use in the APIs.
 
 
 === Statement of relationship of planned work to the current OGC standards baseline
-SWG will align the work of the reuse in the OGC APIs with the OGC API Umbrella Working Group and selected subgroups as well as STA WG.
-The Group will assess overlaps with work on the other general purpose standards including GeoSPARQL and GeoDCAT to agree on common parts.
+The SWG will align the work of the reuse in the OGC APIs with the OGC API SWGs and the SensorThings API SWG. The Group will assess overlaps with work on the other general purpose standards including GeoSPARQL and GeoDCAT to agree on common parts.
 
 === What is Out of Scope?
 Standards only state requirements that are important for a significantly large group of users. Proposals for new parts to existing parts must identify the user group that will benefit from the proposal and for each proposed conformance class; otherwise the proposal will be considered out-of-scope. If a community has a need to develop a profile, the profile should be specified and governed by that community and will not be included in the AIM SWG program of work.
@@ -19,25 +17,22 @@ Standards only state requirements that are important for a significantly large g
 === Specific Existing Work Used as Starting Point
 AIM reuses and aligns relevant standards at core and cross-domain level, with domain-specific models, bridging various views on the agriculture data and providing a formal representation enabling unambiguous translations between them. These standards used in the core and cross-domain layer include:
 
- * NGSI-LD meta-model for AIM core layer
- * W3C Time ontology for concepts of temporal properties and time values[14]
- * OGC GeoSPARQL [3] and associated definitions for geographical and geometrical properties
- * W3C/OGC recommendation SOSA/SSN regarding sensor and actuator data, including observations, observation collections, observed properties, systems and platforms [4]
- * QUDT regarding units of measurement, and concepts to represent quantities and quantity kinds [5]
- * RDF data cube vocabulary[6] to represent statistical data, including datasets, data structures, slices, measure properties, dimension properties, etc.
- * Basic terms from standard or widely used vocabularies like skos[7], foaf[8], schema.org
- * ISO geographic technology standards, including features (domain and sampling feature), and observations
+ * NGSI-LD meta-model for AIM core layer;
+ * W3C Time ontology for concepts of temporal properties and time values[14];
+ * OGC GeoSPARQL [3] and associated definitions for geographical and geometrical properties;
+ * W3C/OGC Standard SOSA/SSN regarding sensor and actuator data, including observations, observation collections, observed properties, systems and platforms [4];
+ * QUDT regarding units of measurement, and concepts to represent quantities and quantity kinds [5];
+ * RDF data cube vocabulary[6] to represent statistical data, including datasets, data structures, slices, measure properties, dimension properties, etc.;
+ * Basic terms from standard or widely used vocabularies like skos[7], foaf[8], schema.org;
+ * ISO geographic technology standards, including features (domain and sampling feature), and observations; and
  * The domain-specific models re-used and aligned in the AIM domain layer include Saref4Agri [12], NGSI-LD[13] and INSPIRE/FOODIE[9], and enable the linking of elements to AGROVOC [10] and EPPO [11] concepts.
 
-The AIM model has been published by the DEMETER project and is the outcome of joint partner efforts where OGC has also been engaged.
-AIM is released using persistent and resolvable identifiers (namely from w3id service), allowing access to the ontology on the Web via its URI, with support for content-negotiation, and ensuring the sustainability of the ontology over time. The main entry point is: https://w3id.org/demeter/agri [1], which by default opens in the OGC definition server. All concrete modules can also be found in OGC definition server, e.g., http://defs-dev.opengis.net/profiles/vocab/
+The AIM model has been published by the DEMETER project and is the outcome of joint partner efforts where OGC has also been engaged. AIM is released using persistent and resolvable identifiers (namely from w3id service), allowing access to the ontology on the Web via its URI, with support for content-negotiation, and ensuring the sustainability of the ontology over time. The main entry point is: https://w3id.org/demeter/agri [1], which by default opens in the OGC definition server. All concrete modules can also be found in OGC definition server, e.g., http://defs-dev.opengis.net/profiles/vocab/
 
-The AIM sources can be found at: https://github.com/rapw3k/DEMETER/tree/master/models
+The AIM sources can be found at: https://github.com/rapw3k/DEMETER/tree/master/models.
 AIM has been published in the book: Information and Communication Technologies for Agriculture—Theme III: Decision. Springer Optimization and Its Applications [2] , and a full description is available in DEMETER deliverable:
 https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n (D2.3)
 https://h2020-demeter.eu/wp-content/uploads/2020/10/DEMETER_D21_final.pdf
-
-
 
 === Is This a Persistent SWG
 

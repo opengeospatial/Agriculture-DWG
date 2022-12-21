@@ -14,9 +14,9 @@ Best practices in reuse of available standards have emerged through significant 
 === Value to the OGC
 Reference data models that are defined based on the OGC ontologies and standards support their uptake and popularization. This leverages OGC’s position as the reference for the spatio-temporal aspects of data exchange to provide the basis for common approaches in an otherwise fragmented domain.
 
-Formal representation of the data in external ontologies limits the lock-in of data and services within solutions that are not OGC compliant and enable incorporation of the OGC standards in new industry stacks like Data Spaces. It is also in line with industry trends to support data exchange with ontologies and vocabularies that will enable lookup, translations and validations in the continuous integration manner.
+Formal representation of the data in external ontologies limits the lock-in of data and services within solutions that are not OGC compliant and enable incorporation of the OGC standards in new industry stacks like Data Spaces. It is also in line with industry trends to support data exchange with ontologies and vocabularies that will enable lookup, translations, and validations in the continuous integration manner.
 
-In particular, the diversity of information system architectures in domains such as Agriculture provide a significant opportunity for OGC to progress best practices regarding the application of common conceptual models, modular encoding building blocks and FAIR principles to heterogeneous but interoperable suites of related data products.
+In particular, the diversity of information system architectures in domains such as agriculture provide a significant opportunity for OGC to progress best practices regarding the application of common conceptual models, modular encoding building blocks and FAIR principles to heterogeneous but interoperable suites of related data products.
 
 === Value to the OGC Membership
 Standardization of the AIM in a form that can be embedded in application-specific profiles of the OGC suite of data model and API standards shall facilitate the uptake of OGC standards and interoperability principles in the agriculture sector.
@@ -25,7 +25,7 @@ Given that semantic model definitions are gaining increasing support and interes
 
 
 === Value to the geospatial community
-The wider geospatial community will benefit from the emergence of harmonized approaches to reuse of generic spatio-temporal patterns with domain specific models.  These approaches , tested in agriculture applications, will provide a template for other domains of application.
+The wider geospatial community will benefit from the emergence of harmonized approaches to reuse of generic spatio-temporal patterns with domain specific models.  These approaches, tested in agriculture applications, will provide a template for other domains of application.
 
 The adoption of AIM in operational systems, enabled by its standardization status, opens up a wide range of information types to interoperation with geospatial technologies.
 

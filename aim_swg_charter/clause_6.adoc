@@ -2,6 +2,6 @@
 
 The anticipated audience is:
 
- * Agriculture geospatial resource providers.
- * Developers implementing services.
+ * Agriculture geospatial resource providers;
+ * Developers implementing services; and
  * Users of geospatial resources.
