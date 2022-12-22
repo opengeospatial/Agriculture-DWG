@@ -5,10 +5,10 @@
 SWG cooperation will aim at standards formulation in the shared working space, identification and division of tasks, solving arised issues accordingly to their urgency and severity, tracing the progress and planning.
 
 The AIM SWG will use for collaboration:
- * Github repository with the standard document and formal model
- * Github issue tracker for outstanding tasks and considerations as well as change requests
- * slack channel
- * bi-weekly telcos for ongoing work and issues discussion
+ * Github repository with the standard document and formal model;
+ * Github issue tracker for outstanding tasks and considerations as well as change requests;
+ * A Slack channel; and
+ * bi-weekly telcos for ongoing work and issues discussion.
 
 
 === Similar or Applicable Standards Work (OGC and Elsewhere)
@@ -16,21 +16,11 @@ The AIM SWG will use for collaboration:
 Deliverable D2.3 of the H2020 DEMETER project (https://nc.h2020-demeter.eu/index.php/s/RggDtq76zkXD84n) elaborates the alignments and relations with different models including: INSPIRE/FOODIE, FIWARE AgriFood dta models, SAREF4AGRI, ADAPT, FOODON, AGROVOC, EPPO, and other OGC Earth Observation standards.
 D2.3 includes the analysis of other relevant models, describing their potential incorporation in AIM, e.g., Crop ontology, ISOBUS, GS1, and AFarCloud. Deliverable D2.5 of DEMETER that is planned for delivery in April 2023 will present in detail the latest version of AIM along with all recent extensions.
 
-==== W3C/OGC Spatial Data on the Web Interest Group
-
-(And/or its successor, the Spatial Data on the Web Working Group)
-
-===== Scope of Activity
+==== W3C/OGC Spatial Data on the Web Working Group
 
 This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.
 
-The group is expected to be transformed into a working group over the course of the year 2020.
-
-===== Web Site(s)
-
-https://www.w3.org/2017/sdwig/
-
-===== Source Repositories
+https://www.w3.org/2021/sdw/
 
 https://github.com/w3c/sdw
 
@@ -42,15 +32,11 @@ https://github.com/w3c/sdw
 
 ==== RDA IGAD
 
-===== Scope of Activity
-
 Improving Global Agricultural Data (IGAD) Community of Practice, formerly called The Interest Group on Agricultural Data (IGAD), is building practices of interoperability for research data for agriculture.
 The Group has published several Best Practices for specific subdomains and semantics in general.
 Cooperation will help to work out common practice on semantics in the agriculture.
 
-===== Web Site(s)
-
- -  https://www.rd-alliance.org/groups/agriculture-data-interest-group-igad.html
+https://www.rd-alliance.org/groups/agriculture-data-interest-group-igad.html
 
 ===== Liaisons
 
@@ -59,23 +45,16 @@ Cooperation will help to work out common practice on semantics in the agricultur
 
 ==== Saref4Agri/FIWARE
 
-===== Scope of Activity
-
 This group is working on the ETSI standards supported in the AIM and supported in important data-spaces related initiatives namely NGSI-LD and Saref4Agri.
 Liaison will work on the models alignment and potential representation practices in selected encodings.
 
-===== Web Site(s)
+https://ngsi-ld-tutorials.readthedocs.io/en/latest/
 
- - https://ngsi-ld-tutorials.readthedocs.io/en/latest/
-
-===== Source Repositories
-
- - https://github.com/fiware/tutorials.NGSI-LD
+https://github.com/fiware/tutorials.NGSI-LD
 
 ===== Liaisons
 
 Juanjose Hierro
-
 
 
 === Other Related Work
@@ -86,7 +65,7 @@ This may include the use of tools to automatically generate human-readable ontol
 
 In case of profiles definition *profile* as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
 
-RDA IGAD Agrisemantics WG report ‘39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition’ doi.org/10.15497/RDA00036
+RDA IGAD Agrisemantics WG report ‘39 Hints to Facilitate the Use of Semantics for Data on Agriculture and Nutrition doi.org/10.15497/RDA00036.
 
 
 === Details of first meeting
